@@ -3,10 +3,14 @@
 
 In this project, our focus is on leveraging various data sources and files to craft and manipulate DataFrames using the power of Pandas 🐼. Our goal is to employ a range of analytical and visualization techniques to unravel insights from the datasets at our disposal. The overarching questions guiding our exploration include:
 
-Does financial wellness impact life expectancy? 💰:money_with_wings:
+Does financial wellness impact life expectancy? 💰 :money_with_wings:
+
 Does health expenditure impact life expectancy? :hospital:
+
 Does residency location impact life expectancy? :house:
+
 Does gender impact life expectancy? 🧍‍♀️🧍‍♂️
+
 
 
 # Background
