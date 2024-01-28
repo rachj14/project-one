@@ -97,7 +97,9 @@ For this project, we meticulously selected data from reputable sources, such as 
 * Various Screen Shots
 
 Cover Photo Source: https://www.pinterest.com.au/pin/795729827900751781/
+
 Resources & Links:
+
 AIWH - Australian Institute of Health and Welfare, list of datasets varying from different topics regarding  life expectancy & deaths.
 
 Kaggle WHO - A report using large datasets from different countries about life expectancy.
