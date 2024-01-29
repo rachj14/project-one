@@ -34,15 +34,6 @@ For this project, we meticulously selected data from reputable sources, such as 
 ![Screen Shot of DataFrame 1](screenshots/dataset2.png)
 ![Screen Shot of DataFrame 1](screenshots/dataset.png)
 
-#### Life Expectancy and Finnancial Wellness 💰 :money_with_wings:
-
-
-#### Life Expectancy and Health Expenditure :hospital:
-
-
-#### Life Expectancy and Residency/ Location :house:
-
-
 #### Life Expectancy and Gender 🧍‍♀️🧍‍♂️
 
 *Step by Step:* 
@@ -77,6 +68,13 @@ For this project, we meticulously selected data from reputable sources, such as 
 
 
 
+#### Life Expectancy and Finnancial Wellness 💰 :money_with_wings:
+
+
+#### Life Expectancy and Health Expenditure :hospital:
+
+
+#### Life Expectancy and Residency/ Location :house:
 
 
 
