@@ -105,4 +105,4 @@ AIWH - Australian Institute of Health and Welfare, list of datasets varying from
 Kaggle WHO - A report using large datasets from different countries about life expectancy.
 
 ##### Copyright
-A. Czynszak, R. Jing, C. Lara, X. Li © 2024. All Rights Reserved.
+A. Czynszak, R. Jiang, C. Lara, X. Li © 2024. All Rights Reserved.
