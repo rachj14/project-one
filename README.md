@@ -72,6 +72,37 @@ For this project, we meticulously selected data from reputable sources, such as 
 
 
 #### Life Expectancy and Health Expenditure :hospital:
+*Step by Step:* 
+
+* Merged two csv files into one dataframe:
+![Screenshot of Merged df](screenshots/he_mergedf.png)
+
+* Cleaned data, dropped NA and 0 values, renamed columns, only kept columns/variables of interest:
+![Screenshot of cleaned data](screenshots/he_cleaned.png)
+
+* View of mean values of variables grouped by Status ("Developed" and "Developing"):
+![Screenshot of mean values](screenshots/he_mean.png)
+
+* View of mean values of variables grouped by Status and Year:
+![Screenshot of mean values 2](screenshots/he_meanyears.png)
+
+* Visualisation of Developing vs. Developed on life expectancy:
+![Screenshot of life expectancy](screenshots/lifeexpect_bar.png)
+
+* Visualisation of Developing vs. Developed on health expenditure:
+![Screenshot of health expenditure](screenshots/healthexpend_bar.png)
+
+* Visualisation of Developing vs. Developed against life expectancy vs. health expenditure:
+![Screenshot of line](screenshots/he_line.png)
+
+* Calculated relationship between life expectancy and health expenditure for Developing countries:
+![Screenshot of line regress 1](screenshots/lineregress1.png)
+
+* Calculated relationship between life expectancy and health expenditure for Developed countries:
+![Screenshot of line regress 2](screenshots/lineregress2.png)
+
+* Calculated relationship between life expectancy and health expenditure for all countries:
+![Screenshot of line regress 3](screenshots/lineregress3.png)
 
 
 #### Life Expectancy and Residency/ Location :house:
@@ -103,4 +134,4 @@ AIWH - Australian Institute of Health and Welfare, list of datasets varying from
 Kaggle WHO - A report using large datasets from different countries about life expectancy.
 
 ##### Copyright
-A. Czynszak, R. Jing, C. Lara, X. Li © 2024. All Rights Reserved.
+A. Czynszak, R. Jiang, C. Lara, X. Li © 2024. All Rights Reserved.
