@@ -7,7 +7,7 @@ Does financial wellness impact life expectancy? 💰 :money_with_wings:
 
 Does health expenditure impact life expectancy? :hospital:
 
-Does residency location impact life expectancy? :house:
+Does residency location impact life expectancy? : Developed vs. Developing countries and States in Australia
 
 Does gender impact life expectancy? 🧍‍♀️🧍‍♂️
 
@@ -20,7 +20,7 @@ This project delves into the complex web of factors that influence life expectan
 
 * Analyzing health expenditure by country and life expectancy by country to investigate potential relationships between healthcare investment and life expectancy.
 
-* Investigating the influence of living in metropolitan vs. regional areas in Australia on access to healthcare and its potential impact on life expectancy.
+* Investigating the influence of living in developed vs. developing countries, as well as living in different states in Australia, and the potential impact on life expectancy.
 
 * Assessing the impact of gender on life expectancy and understanding any observed variations.
 
@@ -105,7 +105,117 @@ For this project, we meticulously selected data from reputable sources, such as 
 ![Screenshot of line regress 3](screenshots/lineregress3.png)
 
 
-#### Life Expectancy and Residency/ Location :house:
+#### Life Expectancy and Residency/ Location :
+*Step by Step:* 
+
+* Properly read the data sets:
+![Screenshot of data set](screenshots/dataset_shawn.png)
+
+* Clear the data base and rename columns to make the data frame more readable
+
+* Define two functions: 
+* Function select_data returns all the life expectancy and GDP data in a given year for a given country status (developed or developing)
+* Function meanlife calls select_data to get the raw life expectancy and GDP data, calculate the average of these data and return them
+
+* Create 7 empty lists to collect: 
+* 1.total number of years 
+* 2.raw life expectancy data for developed countries
+* 3.raw life expectancy data for developing countries
+* 4.Average life expectancy data for developed countries
+* 5.4.Average GDP data for developed countries
+* 6.Average life expectancy data for developing countries
+* 7.4.Average GDP data for developing countries
+
+* Put the Average life expectancy and GDP data for both developed and developing countries into a DataFrame
+![Screenshot of codes](screenshots/first_shawn.png)
+![Screenshot of table](screenshots/second_shawn.png)
+
+* Run a test on raw life expectancy data between developed  and developing countries, p value = 7.093327429544901e-23
+
+* Plot 2 figures:
+* 1.The top figure is average life expectancy of Developed countries vs Developing countries
+* 2.The bottom figure is average GDP per capita of Developed countries vs Developing countries
+![Screenshot of codes](screenshots/third_shawn.png)
+![Screenshot of graph](screenshots/fourth_shawn.png)
+
+* Mannually adding countries to 9 countries groups
+* 1.Developed Asian Countries
+* 2.Developed European Countries
+* 3.Developed North American Countries
+* 4.Developed Oceania Countries
+* 5.Developing Asian Countries
+* 6.Developing European Countries
+* 7.Developing African Countries
+* 8.Developing North American Countries
+* 9.Developing South American Countries
+
+* Put all these groups into a list
+* Create country group labels for further uses, these labels are in the same order with the above list
+
+* create 3 empty list to collect:
+* 1.Average life expectancy of groups in 2000 - meanlist_2000
+* 2.Average life expectancy of groups in 2015 - meanlist_2015
+* 3.The above two lists zipped with group labels - mylist
+![Screenshot of codes](screenshots/fifth_shawn.png)
+
+* Define two functions:
+* 1.meangroup_2000 runs a for loop to collect life expectancy data in 2000 for each of 9 country groups I made, return the average of the data
+* 2.meangroup_2015 runs a for loop to collect life expectancy data in 2015 for each of 9 country groups I made, return the average of the data
+
+* A for loop to iterrate through the country groups, and 
+* call meangroup_2000 to get 9 average numbers, and save them into meanlist_2000
+* call meangroup_2015 to get another 9 average numbers, and save them into a meanlist_2015
+* Zip the grouplabels with meanlist_2000 and meanlist_2015, and save them into mylist
+
+* Make mylist a pandas DataFrame and show the table
+![Screenshot of codes](screenshots/sixth_shawn.png)
+![Screenshot of table](screenshots/seventh_shawn.png)
+
+* Create a copy of the database
+* Using a enumerate for loop to add a new column in the copied database, and add group labels to the selected coutries in the country group
+* Countries in the 9 groups created above, will get a label in 1-9 based on their corresponding country group
+* Drop all the countries without a label
+* Create a new data frame selected_df that only contains columns of group label and life expectancy data
+* Draw a boxplot for the selected_df, and replace the xticks with group labels we made earlier
+![Screenshot of codes and graph](screenshots/eighth_shawn.png)
+
+* Create a empty list and use a for loop to collect life expectancy data from each group labels, so the list will have 9 sets of data
+* use[] to access the desired set of data to do ANOVA tests and muliple T tests
+* ANOVA tests on develped and developing groups
+* ANOVA test on developed group without NA(US)
+* T test between developing Asia and Europe, and display each group's average life expectancy
+* T test between developing Africa and South America, and display each group's average life expectancy
+* T test between developing Europe and South America, and display each group's average life expectancy
+![Screenshot of codes](screenshots/nineth_shawn.png)
+![Screenshot of results](screenshots/tenth_shawn.png)
+
+* Merge male and female life expectancy data each state in Australia
+* show the table and create new columns for api data reception
+* create basic api parameters
+![Screenshot of codes and graph](screenshots/eleventh_shawn.png)
+
+* Use for loop to iterrate through each row in the table
+* Call geoapify to retrieve data for the newly created columns
+* Calculate the center point of the state for drawing purposes
+* Three state without latitude and longitutude data
+![Screenshot of codes and graph](screenshots/twelveth_shawn.png)
+
+* Create a function to take in a city name and row index, since we dont get SA, WA, and NT data, Adelaide, Perth, and Darwin are used instead
+* The funtion will make an api call to filling the corresponding data
+* Show the finished table
+![Screenshot of codes and graph](screenshots/thirteenth_shawn.png)
+
+* Merge the table with Australian population data by 
+* Divide the population size by 10 for better drawing experience
+* Fix the population unit from /thousands to /ten thousands
+* Show the table
+![Screenshot of codes and graph](screenshots/fourteenth_shawn.png)
+
+* Draw the map by using hyplot
+* Size of the cycle is based on population size of that state
+* Hovering on the cycle will show the male and femal life expectancy data
+* Show the map
+![Screenshot of codes and graph](screenshots/fifteenth_shawn.png)
 
 
 
