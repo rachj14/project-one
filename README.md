@@ -7,7 +7,7 @@ Does financial wellness impact life expectancy? 💰 :money_with_wings:
 
 Does health expenditure impact life expectancy? :hospital:
 
-Does residency location impact life expectancy? : Developed vs. Developing countries and States in Australia
+Does residency location impact life expectancy? :house: (Developed vs. Developing countries and States in Australia)
 
 Does gender impact life expectancy? 🧍‍♀️🧍‍♂️
 
@@ -65,11 +65,7 @@ For this project, we meticulously selected data from reputable sources, such as 
 ![Screen Shot of Box Plot](screenshots/boxplot.png)
 
 * Provided Summary Analysis for each major point.
-
-
-
-#### Life Expectancy and Finnancial Wellness 💰 :money_with_wings:
-
+  
 
 #### Life Expectancy and Health Expenditure :hospital:
 *Step by Step:* 
@@ -105,7 +101,7 @@ For this project, we meticulously selected data from reputable sources, such as 
 ![Screenshot of line regress 3](screenshots/lineregress3.png)
 
 
-#### Life Expectancy and Residency/ Location :
+#### Life Expectancy and Residency/ Location :house:
 *Step by Step:* 
 
 * Properly read the data sets:
@@ -217,7 +213,7 @@ For this project, we meticulously selected data from reputable sources, such as 
 * Show the map
 ![Screenshot of codes and graph](screenshots/fifteenth_shawn.png)
 
-
+#### Life Expectancy and Finnancial Wellness 💰 :money_with_wings:
 
 
 
