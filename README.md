@@ -32,7 +32,7 @@ For this project, we meticulously selected data from reputable sources, such as 
 ![Screen Shot of DataFrame 1](screenshots/dataset2.png)
 ![Screen Shot of DataFrame 1](screenshots/dataset.png)
 
-#### Life Expectancy and Gender 🧍‍♀️🧍‍♂️
+## Life Expectancy and Gender 🧍‍♀️🧍‍♂️
 
 *Step by Step:* 
 
@@ -65,7 +65,7 @@ For this project, we meticulously selected data from reputable sources, such as 
 * Provided Summary Analysis for each major point.
   
 
-#### Life Expectancy and Health Expenditure :hospital:
+## Life Expectancy and Health Expenditure :hospital:
 *Step by Step:* 
 
 * Merged two csv files into one dataframe:
@@ -99,7 +99,7 @@ For this project, we meticulously selected data from reputable sources, such as 
 ![Screenshot of line regress 3](screenshots/lineregress3.png)
 
 
-#### Life Expectancy and Residency/ Location :house:
+## Life Expectancy and Residency/ Location :house:
 *Step by Step:* 
 
 * Properly read the data sets:
