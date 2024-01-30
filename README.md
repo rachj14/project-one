@@ -3,8 +3,6 @@
 
 In this project, our focus is on leveraging various data sources and files to craft and manipulate DataFrames using the power of Pandas 🐼. Our goal is to employ a range of analytical and visualization techniques to unravel insights from the datasets at our disposal. The overarching questions guiding our exploration include:
 
-Does financial wellness impact life expectancy? 💰 :money_with_wings:
-
 Does health expenditure impact life expectancy? :hospital:
 
 Does residency location impact life expectancy? :house: (Developed vs. Developing countries and States in Australia)
@@ -213,9 +211,6 @@ For this project, we meticulously selected data from reputable sources, such as 
 * Show the map
 ![Screenshot of codes and graph](screenshots/fifteenth_shawn.png)
 
-#### Life Expectancy and Finnancial Wellness 💰 :money_with_wings:
-
-
 
 #### Technologies used
 * *Visual Studio Code - **Python** Software*
@@ -240,4 +235,4 @@ AIWH - Australian Institute of Health and Welfare, list of datasets varying from
 Kaggle WHO - A report using large datasets from different countries about life expectancy.
 
 ##### Copyright
-A. Czynszak, R. Jiang, C. Lara, X. Li © 2024. All Rights Reserved.
+A. Czynszak, R. Jiang, X. Li © 2024. All Rights Reserved.
