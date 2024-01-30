@@ -14,8 +14,6 @@ Does gender impact life expectancy? 🧍‍♀️🧍‍♂️
 # Background
 This project delves into the complex web of factors that influence life expectancy, aiming to unravel key insights into longevity. The exploration includes various dimensions:
 
-* Examining average/median income by state and life expectancy by state to assess potential correlations between financial well-being and access to healthcare, and their impact on longevity.
-
 * Analyzing health expenditure by country and life expectancy by country to investigate potential relationships between healthcare investment and life expectancy.
 
 * Investigating the influence of living in developed vs. developing countries, as well as living in different states in Australia, and the potential impact on life expectancy.
